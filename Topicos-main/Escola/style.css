@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ecf0f3;
+  display: flex;
+  
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  font-family: poppins;
+}
+
+.container {
+  width: 355px;
+  height: 600px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.logo{
+  display: inline-block;
+  margin-left: 80px;
+  width: 200px;
+  height: 200px;
+ 
+}
+
+.inputs {
+  margin: 20px;
+  text-align: center;
+  align-items:initial ;
+  display: inline-block;
+}
+
+.buttoncad {
+ display: flex ;
+ align-items: center;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+login::placeholder {
+  color: gray;
+}
+
+.login {
+  background: #ecf0f3;
+  margin-top: 10px;
+  padding: 5px;
+  padding-left: 20px;
+  width: 250px;
+  height: 20px;
+  font-size: small;
+  border-radius: 10px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  border-style: none;
+}
+
+.link{
+  align-items: center;
+ margin-top: 20px;
+ margin-left: 40px;
+}
+
+.link2{
+  
+  
+  margin-left: 155px;
+  font-size: small;
+}
+
+.box {
+  margin-top: 10px;
+  color: #7b7b7b;
+  font-size: small;
+}
+
+
+
+button {
+  width: 200px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+
+  margin-left: 80px;
+  margin-top: 30px;
+  color: white;
+  background: #e2e2e2;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+button:hover {
+  box-shadow: none;
+  background-color: #6EABFB;
+}
+
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,214 @@
+[
+    {
+        "Nome": "Wilbur Gaylord",
+        "Genero": "Cisgender Female",
+        "Idade": 98414,
+        "Endereco": "94462 Rupert Spring",
+        "id": "1",
+        "Frequencia": "18/20",
+        "Notas": "7/10",
+        "AtividadesExtras": [
+            {
+                "NomeMateria": "Javascript",
+                "Professor": "Mrs. George Hagenes",
+                "Horario": "2022-06-09T06:30:11.103Z",
+                "id": "1",
+                "AlunoId": "1"
+            }
+        ],
+        "Provas": [
+            {
+                "disciplina": "Matematica",
+                "data": "27-07-2023",
+                "horario": "08:00"
+            },
+            {
+                "disciplina": "Historia",
+                "data": "27-07-2023",
+                "horario": "09:00"
+            },
+            {
+                "disciplina": "Quimica",
+                "data": "27-07-2023",
+                "horario": "10:00"
+            },
+            {
+                "disciplina": "Portugues",
+                "data": "27-07-2023",
+                "horario": "11:00"
+            },
+            {
+                "disciplina": "Geografia",
+                "data": "27-07-2023",
+                "horario": "11:45"
+            }
+        ]
+
+    },
+    {
+        "Nome": "Mr. Fred Davis",
+        "Genero": "Trans*Woman",
+        "Idade": 12775,
+        "Endereco": "079 Jenifer Row",
+        "id": "2",
+        "Frequencia": "15/20",
+        "Notas": "8/10",
+        "AtividadesExtras": [
+            {
+                "NomeMateria": "Balé",
+                "Professor": "Patsy Hauck",
+                "Horario": "2022-06-09T16:56:59.984Z",
+                "id": "2",
+                "AlunoId": "2"
+            }
+        ],
+        "Provas": [
+            {
+                "disciplina": "Matematica",
+                "data": "27-07-2023",
+                "horario": "08:00"
+            },
+            {
+                "disciplina": "Historia",
+                "data": "27-07-2023",
+                "horario": "09:00"
+            },
+            {
+                "disciplina": "Quimica",
+                "data": "27-07-2023",
+                "horario": "10:00"
+            },
+            {
+                "disciplina": "Portugues",
+                "data": "27-07-2023",
+                "horario": "11:00"
+            },
+            {
+                "disciplina": "Geografia",
+                "data": "27-07-2023",
+                "horario": "11:45"
+            }
+        ]
+
+    },
+    {
+        "Nome": "Anita Murphy",
+        "Genero": "Man",
+        "Idade": 56618,
+        "Endereco": "76790 Mayert Common",
+        "id": "3",
+        "Frequencia": "20/20",
+        "Notas": "10/10",
+        "AtividadesExtras": [
+            {
+                "NomeMateria": "Javascript",
+                "Professor": "Mrs. George Hagenes",
+                "Horario": "2022-06-09T06:30:11.103Z",
+                "id": "1",
+                "AlunoId": "1"
+            }
+        ],
+        "Provas": [
+            {
+                "disciplina": "Matematica",
+                "data": "27-07-2023",
+                "horario": "08:00"
+            },
+            {
+                "disciplina": "Historia",
+                "data": "27-07-2023",
+                "horario": "09:00"
+            },
+            {
+                "disciplina": "Quimica",
+                "data": "27-07-2023",
+                "horario": "10:00"
+            },
+            {
+                "disciplina": "Portugues",
+                "data": "27-07-2023",
+                "horario": "11:00"
+            },
+            {
+                "disciplina": "Geografia",
+                "data": "27-07-2023",
+                "horario": "11:45"
+            }
+        ]
+    },
+    {
+        "Nome": "Ron Hansen",
+        "Genero": "Androgynous",
+        "Idade": 51158,
+        "Endereco": "299 Adolph Mountains",
+        "id": "4",
+        "Frequencia": "19/20",
+        "Notas": "9/10",
+        "AtividadesExtras": [],
+        "Provas": [
+            {
+                "disciplina": "Matematica",
+                "data": "27-07-2023",
+                "horario": "08:00"
+            },
+            {
+                "disciplina": "Historia",
+                "data": "27-07-2023",
+                "horario": "09:00"
+            },
+            {
+                "disciplina": "Quimica",
+                "data": "27-07-2023",
+                "horario": "10:00"
+            },
+            {
+                "disciplina": "Portugues",
+                "data": "27-07-2023",
+                "horario": "11:00"
+            },
+            {
+                "disciplina": "Geografia",
+                "data": "27-07-2023",
+                "horario": "11:45"
+            }
+        ]
+
+    },
+    {
+        "Nome": "Winston Cremin",
+        "Genero": "Cisgender Woman",
+        "Idade": 38025,
+        "Endereco": "564 Roma Brooks",
+        "id": "5",
+        "Frequencia": "8/20",
+        "Notas": "5/10",
+        "AtividadesExtras": [],
+        "Provas": [
+            {
+                "disciplina": "Matematica",
+                "data": "27-07-2023",
+                "horario": "08:00"
+            },
+            {
+                "disciplina": "Historia",
+                "data": "27-07-2023",
+                "horario": "09:00"
+            },
+            {
+                "disciplina": "Quimica",
+                "data": "27-07-2023",
+                "horario": "10:00"
+            },
+            {
+                "disciplina": "Portugues",
+                "data": "27-07-2023",
+                "horario": "11:00"
+            },
+            {
+                "disciplina": "Geografia",
+                "data": "27-07-2023",
+                "horario": "11:45"
+            }
+        ]
+    }
+]

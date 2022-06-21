@@ -1,0 +1,340 @@
+
+
+
+
+body {
+    margin: 0;
+    font-family:"Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #515151;
+    text-align: left;
+    background-color: #ecf0f3;
+    ;
+}
+
+
+a {
+    color: #383838;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #0458eb;
+    text-decoration: underline;
+}
+
+
+.info {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 20px;
+  height: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -5px -5px 20px white;
+}
+
+.registros {
+   
+  margin-top: 20px;
+  margin-left: 30px;
+  height: 500px;
+  width: 97%;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -5px -5px 20px white;
+  
+}
+.identificacaoLogin {
+    position: relative;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -5px -5px 20px white;
+}
+
+.dashboard {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+}
+
+.dashboard-app {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 2;
+    -webkit-flex-grow: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    margin-top: 84px;
+}
+
+.dashboard-content {
+    -webkit-box-flex: 2;
+    -webkit-flex-grow: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    padding: 25px;
+}
+
+.dashboard-nav {
+    min-width: 238px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    background: #2896ea;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.dashboard-compact .dashboard-nav {
+    display: none;
+}
+
+.dashboard-nav header {
+    min-height: 84px;
+   
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.dashboard-nav header .menu-toggle {
+    display: none;
+    margin-right: auto;
+}
+
+.dashboard-nav a {
+    color: #515151;
+}
+
+.dashboard-nav a:hover {
+    text-decoration: none;
+}
+
+.dashboard-nav {
+    background-color: #ecf0f3;
+}
+
+.dashboard-nav a {
+    color: rgb(51, 51, 51);
+}
+
+.logo {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.dashboard-nav-lista {
+    display: -webkit-box;
+ 
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.dashboard-nav-item {
+    min-height: 56px;
+    padding: 0px 20px 0px 70px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    letter-spacing: 0.02em;
+    transition: ease-out 0.5s;
+}
+
+
+.dashboard-nav-item:hover {
+    background: aqua;
+}
+
+
+@media (min-width: 992px) {
+    .dashboard-app {
+        margin-left: 238px;
+    }
+
+    .dashboard-compact .dashboard-app {
+        margin-left: 0;
+    }
+}
+
+
+.textinput {
+    background: #ecf0f3;
+    margin-top: 30px;
+    margin-right: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    height: 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  }
+  
+  button {
+      
+    color: white;
+    padding: 13px;
+    background: #e2e2e2;
+   
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+  }
+  button:hover {
+    box-shadow: none;
+    background-color: #6EABFB;
+  }
+
+
+  .button {
+      
+    color: white;
+    padding: 13px;
+    background: #e2e2e2;
+   
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+  }
+  .button:hover {
+    box-shadow: none;
+    background-color: #6EABFB;
+  }
+
+
+
+  .iconsPasta{
+      
+      position: static;
+      display: flex;
+      align-items: flex-end;
+      
+  }
+
+  .icon {
+    
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+  }
+
+  .icon:hover {
+    
+    width: 120px;
+    height: 120px;
+    
+    
+    
+  }
+
+
+
+
+
+
+
+
+
+ /* Dropdown Button */
+.dropbtn {
+  background-color: #d5d5d5;
+  color: white;
+  padding: 10px;
+  margin-right: 15px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #0458eb;}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="dashboard.css" media="screen" />
+    <title>Pai / Mãe</title>
+</head>
+
+<body>
+
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+
+            <header>
+                <img src="img/logo.svg" alt="">
+            </header>
+            <nav class="dashboard-nav-lista">
+                <a href="#home" class="dashboard-nav-item"> Home </a>
+                <a href="#solMatriculas" class="dashboard-nav-item "> Matrículas </a>
+                <a href="#evoAlunos" class="dashboard-nav-item "> Evolução do aluno </a>
+                <a href="#financeiro" class="dashboard-nav-item "> Financeiro </a>
+                <a href="#matEstudos" class="dashboard-nav-item "> Materiais de estudos </a>
+                <a href="index.html" class="dashboard-nav-item"> Logout </a>
+            </nav>
+        </div>
+
+        <div class='dashboard-app'>
+            <div class='dashboard-content'>
+                <div class='container'>
+                    <div class='card'>
+                        <div class='identificacaoLogin'>
+                            <h1>Área Pai e Mãe...</h1>
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="">Selecionar filho</button>
+                                <div id="dropdownAlunos" class="dropdown-content"></div>
+                            </div>
+                        </div>
+
+                        <div class='info'>
+                            <p>Agenda financeira</p>
+                            <label> <input class="textinput" id="#" type="datetime-local"></input></label>
+                        </div>
+
+                        <div class='registros'>
+                            <p>Agenda do aluno</p>
+                            <label> <input class="textinput" id="#" type="datetime-local"></input></label>
+                        </div>
+
+                        <div class='registros'>
+                            <p>Atividades extras</p>
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="">Atividades</button>
+                                <div id="dropdownAtividades" class="dropdown-content"></div>
+                            </div>
+                            <button class="dropbtn" onclick="alert ('Atididade extra cadastrada')" onclick="">Confirmar
+                                atividade extra</button>
+
+
+                        </div>
+                        <div class='registros'>
+                            <p>Notas e Faltas</p>
+
+                            <input class="textinput" id="notasInput" type="text" placeholder="Notas" />
+                            <input class="textinput" id="faltasInput" type="text" placeholder="Faltas" />
+
+                        </div>
+
+                        <div class='registros'>
+                            <p>Disciplinas do aluno</p>
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="">Matérias regulares</button>
+                                <div id="dropdownMaterias" class="dropdown-content"></div>
+                            </div>
+                        </div>
+
+
+                        <div class='registros'>
+                            <p>Materiais de estudos</p>
+
+                            <div class="iconsPasta">
+
+                                <a class="icon" href="img/pasta.svg" download>
+                                    <p>Matemática</p>
+                                    <img src="img/pasta.svg">
+                                </a>
+
+                                <a class="icon" href="img/pasta.svg" download>
+                                    <p>História</p>
+                                    <img src="img/pasta.svg">
+                                </a>
+
+                                <a class="icon" href="img/pasta.svg" download>
+                                    <p>Geografia</p>
+                                    <img src="img/pasta.svg">
+                                </a>
+
+                                <a class="icon" href="img/pasta.svg" download>
+                                    <p>Filosofia</p>
+                                    <img src="img/pasta.svg">
+                                </a>
+
+                                <a class="icon" href="img/pasta.svg" download>
+                                    <p>Português</p>
+                                    <img src="img/pasta.svg">
+                                </a>
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="pais.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="dashboard.css" media="screen" />
+    <title> </title>
+
+</head>
+
+<body>
+
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+
+            <header>
+
+                <img src="img/logo.svg" alt="">
+
+            </header>
+
+            <nav class="dashboard-nav-lista">
+
+                <a href="#home" class="dashboard-nav-item"> Home </a>
+
+                <a href="#agrovas" class="dashboard-nav-item "> Agenda de Aulas </a>
+                <a href="#atExtras" class="dashboard-nav-item "> Atividades extras </a>
+                <a href="#matEstudos" class="dashboard-nav-item "> Materiais de estudos </a>
+
+
+                <a href="index.html" class="dashboard-nav-item"> Logout </a>
+            </nav>
+        </div>
+
+
+        <div class='dashboard-app'>
+
+
+
+            <div class='dashboard-content'>
+                <div class='container'>
+                    <div class='card'>
+                        <div class='identificacaoLogin'>
+                            <h1 id="nome">Bem Vindo  </h1>
+                           
+                        
+                        </div>
+
+                        <div class='info'>
+                            <p>Agenda de aulas</p>
+                            <label> <input class="textinput"  type="date" placeholder="Agenda de aulas">
+                                </input></label>
+
+
+
+                        </div>
+                        <div class='registros'>
+                            <p>Suas atividades extras</p>
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="">Atividades extras</button>
+
+                                <div id="atividades" class="dropdown-content">
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class='registros'>
+                            <p>Suas matérias</p>
+
+                            <div class="dropdown">
+                                <button class="dropbtn">Matérias regulares</button>
+
+                                <div id="materias" class="dropdown-content">
+
+                                 
+                                </div>
+                            </div>
+                            <label>Notas <input class="textinput" id="notasInput" type="string" placeholder="Notas"></input></label>
+                            <label>Frequência <input class="textinput" id="faltasInput" type="string" placeholder="Faltas"></input></label>
+                        </div>
+
+
+                        <div class='registros'>
+                            <p>Materiais de estudos</p>
+
+                            <div class="iconsPasta">
+
+                                <a class="icon" href="img/pasta.svg" download>
+                                    <p>Matemática</p>
+                                    <img src="img/pasta.svg">
+                                </a>
+
+                                <a class="icon" href="img/pasta.svg" download>
+                                    <p>História</p>
+                                    <img src="img/pasta.svg">
+                                </a>
+
+                                <a class="icon" href="img/pasta.svg" download>
+                                    <p>Geografia</p>
+                                    <img src="img/pasta.svg">
+                                </a>
+
+                                <a class="icon" href="img/pasta.svg" download>
+                                    <p>Filosofia</p>
+                                    <img src="img/pasta.svg">
+                                </a>
+
+                                <a class="icon" href="img/pasta.svg" download>
+                                    <p>Português</p>
+                                    <img src="img/pasta.svg">
+                                </a>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="aluno.js"></script>
+
+</body>
+
+</html>

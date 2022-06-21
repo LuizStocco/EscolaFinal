@@ -1,0 +1,52 @@
+/* Add a black background color to the top navigation */
+body {
+    margin: 0;
+    font-family:"Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #515151;
+    text-align: left;
+    background-color: #f8f8f8;
+    ;
+}
+
+.logo{
+    
+    margin-left: 45%;
+}
+
+.topnav {
+    
+    overflow: hidden;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    margin-right: 20px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #6EABFB;
+    color: rgb(234, 234, 234);
+    border-radius: 0 0 20px 20px;
+    transition: 0.5s;
+
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #6EABFB;
+    color: white;
+    transition: 0.5s;
+  }

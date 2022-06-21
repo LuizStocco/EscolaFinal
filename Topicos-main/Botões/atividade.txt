@@ -1,0 +1,7 @@
+print 0 .. 10 
+
+mostrar texto débito tec.
+
+abrir url sonar 
+
+abrir url jenkins 

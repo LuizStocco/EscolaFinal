@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="dashboard.css" media="screen"/>
+    <title>Professor</title>
+</head>
+<body>
+    
+    <div class='dashboard'>
+        <div class="dashboard-nav">
+           
+            <header>
+
+                <img src="img/logo.svg" alt="">
+                </header>
+
+            <nav class="dashboard-nav-lista">
+                
+                <a href="#home" class="dashboard-nav-item">  Home </a>
+                
+                <a href="#agrovas" class="dashboard-nav-item "> Agenda de provas </a> 
+                <a href="#solMatriculas" class="dashboard-nav-item "> Matrículas </a>
+                <a href="#evoAlunos" class="dashboard-nav-item "> Evolução do aluno </a>
+                <a href="#matEstudos" class="dashboard-nav-item "> Materiais de estudos </a>
+                <a href="#frequencia" class="dashboard-nav-item "> Frequência </a>
+                <a href="#notas" class="dashboard-nav-item "> Notas </a>
+                
+
+              <a href="index.html" class="dashboard-nav-item"> Logout </a>
+            </nav>
+        </div>
+
+
+        <div class='dashboard-app'>
+            
+
+
+            <div class='dashboard-content'>
+                <div class='container'>
+                    <div class='card'>
+                        <div class='identificacaoLogin'>
+                            <h1>Área do professor...</h1>
+                        </div>
+
+                        <div class='info'>
+                            <p>Calendario acadêmico</p>
+                            <label> <input class="textinput" id="#" type="datetime-local" ></input></label>
+                            
+
+                        </div>
+                        <div class='registros'>
+                            <p>Material disciplinar</p>
+
+                            <form action="/action_page.php">
+                                <input  type="file" id="myFile" name="filename">
+                                <input class="button" type="submit">
+                              </form>
+                            
+                         </div>
+
+                         <div class='registros'>
+                            <p>Sua disciplina</p>
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="">Alunos</button>
+                                
+                                <div id="alunos" class="dropdown-content" >
+
+                                
+                                </div>
+                              </div>
+
+                              <label> <input class="textinput" id="Frequencia" type="string"placeholder="Frequência do aluno"  ></input></label>
+                              <label> <input class="textinput" id="Notas" type="string"placeholder="Notas do aluno"  ></input></label>
+                              <button class="dropbtn" onclick="">Atualizar</button>
+                              
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="professor.js"></script>  
+
+</body>
+</html>
+

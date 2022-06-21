@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <script type="text/javascript" src="index.js"></script>
+    <title>Escola</title>
+</head>
+<body>
+
+<div class="container">
+  
+  <div class="logo"><img src="img/logo.svg"></div>
+  
+  <div class="inputs">
+    <input class="login" type="email" placeholder="Login" id="campologin"/>
+    <input class="login" type="password" placeholder="Senha" id="camposenha"/>
+  </div>
+
+  
+  <div class="link">
+    <input type="checkbox" id="checkprofessor">
+    <label class="box" for="checkprofessor">Professor</label> <br>
+
+    <input type="checkbox" id="checkaluno">
+    <label class="box" for="checkaluno">Alunos</label> <br>
+
+    <input type="checkbox" id="checksecretaria">
+    <label class="box" for="secretariaCheck">Secretaria</label><br>
+
+    <input type="checkbox" id="checkpaimae">
+    <label class="box" for="checkpaimae">Pais e Mães</label><br>
+  </div>
+
+  <div>
+    <button type="submit" id="botaologin" onclick="verificarLogin()">Login</button>
+    <a href="cadastro.html"> <button type="submit">Cadastro</button></a>
+  </div>
+
+ 
+  <script src="index.js"></script>
+</div>
+</body>
+</html>
